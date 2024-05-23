@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog App</title>
+    <link href="{%static 'css/bootstrap.min.css' %}" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="color: blue; text-align: center;">Welcome to the Blog App</h1>
+    </header>
+
+    <nav>
+        <ul style="list-style-type: none; background-color: lightgray; padding: 10px;">
+            <li style="display: inline-block; margin-right: 10px;"><a href="/" style="text-decoration: none; color: black;">Home</a></li>
+            <li style="display: inline-block; margin-right: 10px;"><a href="/about" style="text-decoration: none; color: black;">About</a></li>
+            <li style="display: inline-block; margin-right: 10px;"><a href="/blog" style="text-decoration: none; color: black;">Blog</a></li>
+            <li style="display: inline-block; margin-right: 10px;"><a href="/contact" style="text-decoration: none; color: black;">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2 style="color: green;">Latest Blog Posts</h2>
+            <!-- Display the latest blog posts here -->
+        </section>
+
+        <section>
+            <h2 style="color: orange;">About</h2>
+            <p>Write a brief description about your blog app here.</p>
+        </section>
+
+        <section>
+            <h2 style="color: purple;">Contact</h2>
+            <p>Provide contact information or a contact form here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2024 Blog App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
